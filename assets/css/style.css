@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+/* :root {
+    --secondary-color:#FFB900;
+    --primary-color: #171100;
+    --font-sen: "Sen",sans-serif;
+} */
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Sora", sans-serif;
+    
+}
+a {
+    text-decoration: none;
+}
+
+.content {
+    width:1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto
+}
